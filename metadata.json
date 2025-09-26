@@ -1,0 +1,5 @@
+{
+  "name": "Flappy Neon",
+  "description": "A modern, neon-themed flappy-style game built with React, TypeScript, and Tailwind CSS. Tap to navigate the bird through glowing obstacles and achieve the highest score.",
+  "requestFramePermissions": []
+}

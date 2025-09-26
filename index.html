@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-g" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flappy Neon</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'neon-yellow': '#FFD600',
+              'neon-cyan': '#00FFFF',
+              'deep-black': '#0D0D0D',
+              'galaxy-start': '#1F1C2C',
+              'galaxy-end': '#928DAB',
+            },
+            boxShadow: {
+              'glow-yellow': '0 0 18px rgba(255, 214, 0, 0.7)',
+              'glow-cyan': '0 0 20px rgba(0, 255, 255, 0.6)',
+              'glow-white': '0 0 12px rgba(255, 255, 255, 0.8)',
+            }
+          },
+        },
+      }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.4/howler.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/framer-motion@10/dist/framer-motion.umd.min.js"></script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/"
+  }
+}
+</script>
+</head>
+  <body class="bg-deep-black flex items-center justify-center h-screen font-sans">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
